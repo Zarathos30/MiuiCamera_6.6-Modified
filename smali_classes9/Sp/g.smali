@@ -800,7 +800,7 @@
 
     iget-boolean v7, v3, LSp/q;->x:Z
 
-    if-eqz v7, :cond_1e
+    goto :cond_1e
 
     iget v7, v3, LSp/q;->l:I
 
