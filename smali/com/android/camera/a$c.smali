@@ -77,12 +77,6 @@
     goto/16 :goto_1
 
     :pswitch_1
-    const v0, 0x7f140c74
-
-    invoke-static {v2, v0}, LF1/C4;->g(Landroid/app/Activity;I)V
-
-    return-void
-
     :pswitch_2
     iget-object v0, v2, Lcom/android/camera/a;->C0:LD8/m;
 
