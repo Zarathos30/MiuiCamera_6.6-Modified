@@ -341,9 +341,7 @@
     :cond_9
     iget-object v14, v2, LSp/i;->c0:Ljava/lang/Boolean;
 
-    invoke-virtual {v14}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result v14
+    const/4 v14, 0x0
 
     if-eqz v14, :cond_a
 
@@ -395,9 +393,7 @@
     :cond_c
     iget-object v10, v2, LSp/i;->c0:Ljava/lang/Boolean;
 
-    invoke-virtual {v10}, Ljava/lang/Boolean;->booleanValue()Z
-
-    move-result v10
+    const/4 v10, 0x0
 
     if-eqz v10, :cond_d
 
