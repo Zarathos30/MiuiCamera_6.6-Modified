@@ -1146,6 +1146,10 @@
 .method public final F(Ljava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)V
     .locals 4
 
+    invoke-static {p1, p2}, LSp/n;->a(Ljava/nio/ByteBuffer;Landroid/media/MediaCodec$BufferInfo;)Ljava/nio/ByteBuffer;
+
+    move-result-object p1
+
     iget-object v0, p0, LSp/c;->d:LSp/v$a;
 
     if-eqz v0, :cond_0
