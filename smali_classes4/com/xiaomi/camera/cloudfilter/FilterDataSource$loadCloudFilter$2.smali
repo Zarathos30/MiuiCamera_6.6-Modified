@@ -204,16 +204,7 @@
     invoke-static {p1}, LPu/l;->b(Ljava/lang/Object;)V
 
     :try_start_1
-    iget-boolean p1, p0, Lcom/xiaomi/camera/cloudfilter/FilterDataSource$loadCloudFilter$2;->$supportCvType:Z
-
-    if-eqz p1, :cond_2
-
     const-string p1, "camera_app_filter_leica"
-
-    goto :goto_0
-
-    :cond_2
-    const-string p1, "camera_app_filter_none_leica"
 
     :goto_0
     iget-object v1, p0, Lcom/xiaomi/camera/cloudfilter/FilterDataSource$loadCloudFilter$2;->this$0:Lcom/xiaomi/camera/cloudfilter/FilterDataSource;

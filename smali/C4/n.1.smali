@@ -360,6 +360,8 @@
 
     const-string v3, "CloudFilterUtils"
 
+    const/4 p0, 0x1
+
     if-eqz p0, :cond_5
 
     const-string p0, "cloudfilter/cloud_filter_custom.json"
