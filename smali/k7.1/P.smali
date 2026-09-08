@@ -913,6 +913,8 @@
     goto :goto_15
 
     :cond_15
+    invoke-static {v14}, Lcom/android/camera/module/video/HsrRescaler;->rescaleIfSlowMotion(Ljava/io/File;)V
+
     :try_start_b
     new-instance v4, Lcom/android/camera/jcodec/a;
 
